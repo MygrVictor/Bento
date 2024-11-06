@@ -1,0 +1,31 @@
+.audience {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 5%;
+  margin-top: 10%;
+  padding-left: 4%;
+  width: 100%;
+
+ 
+  background-color: rgb(255, 255, 255);
+
+  img {
+    width: 50%;
+  }
+  h2 {
+    font-size: 40px;
+    padding-left: 2%;
+  }
+}
+@media (min-width: $minwidth) {
+  .audience{
+    margin: 0;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+  }
+}

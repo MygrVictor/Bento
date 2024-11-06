@@ -1,0 +1,18 @@
+main{
+  font-family: "DM Sans", sans-serif;
+  margin-right: 2%;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(224, 224, 224);
+  height: auto;
+
+
+
+  @media (min-width:$minwidth) {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2fr 1fr 0,5fr 2fr;
+    gap: 25px;
+   
+  }
+}

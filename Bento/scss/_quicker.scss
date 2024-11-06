@@ -1,0 +1,30 @@
+.quicker{
+    @include no-border-center;
+     background-color: rgb(255, 195, 239);
+     
+     img{width: 50%;
+
+     }
+     h2{font-size: 40px;
+        padding-left: 2%;
+    }
+    span{color: $mainpurple;
+        font-style: italic;
+        
+    }
+ }
+
+@media (min-width: $minwidth) {
+
+.quicker{ 
+    margin: 0;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+
+}
+  }
+  
